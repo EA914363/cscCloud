@@ -2,7 +2,7 @@ import geni.portal as portal
 import geni.rspec.pg as rspec
 
 # Create a Requet object to start building the RSpec.
-request = portal.contet.makeRequestRSpec()
+request = portal.context.makeRequestRSpec()
 # Create a XenVM
 node = request.XenVM("node")
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"
